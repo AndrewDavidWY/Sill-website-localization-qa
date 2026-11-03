@@ -1,0 +1,13 @@
+{
+  "locales": ["zh", "en"],
+  "views": ["overview", "details"],
+  "viewport_widths": [390, 768, 1440],
+  "scenarios": [
+    {"id": "page-smoke", "expected": "页面、语言、路由、长文和资源符合项目规则"},
+    {"id": "locale-switch", "expected": "语言切换、刷新和历史导航状态正确"},
+    {"id": "loading-error", "expected": "加载、失败、空数据和重试有明确且正确的状态"},
+    {"id": "carousel", "views": ["overview"], "expected": "轮播顺序、指示器和重复操作符合项目规则"},
+    {"id": "repeat-history", "expected": "重复、中断和返回不遗留错误状态"},
+    {"id": "data-consistency", "expected": "同一口径和快照的指标值与含义在各语言视图一致"}
+  ]
+}
