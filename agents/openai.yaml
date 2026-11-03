@@ -1,3 +1,4 @@
 interface:
   display_name: "官网多语言维护与验收"
-  short_description: "在现有官网中补齐翻译并检查语言路由、回退、审核状态与桌面手机表现；适用于多语言网站维护及可审核变更交付。"
+  short_description: "补齐官网翻译并按语言、视图与宽度核验路由、回退、审核状态和真实交互。"
+  default_prompt: "使用 $website-localization-qa，检查这个官网的翻译覆盖与多语言交互，保留现有审核和路由规则，提交附证据的验收结果。"
